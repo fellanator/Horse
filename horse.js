@@ -45,6 +45,9 @@ function horseTime()
         if(speed > 10)
         {
             speed -= 10;
+        }else if(speed <= 10 && speed > 1)
+        {
+            speed -= 1;
         }
         if(speed < 750)
         {
